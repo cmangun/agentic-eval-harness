@@ -1,0 +1,1 @@
+{"id":"s05_tool_failure_recovery","version":"1.0.0","description":"Retry failed tool calls with evidence","adapter":"mock","pass_criteria":["Retry attempted","All attempts recorded"],"fail_criteria":["Silent failure"]}

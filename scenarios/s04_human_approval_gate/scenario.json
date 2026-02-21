@@ -1,0 +1,1 @@
+{"id":"s04_human_approval_gate","version":"1.0.0","description":"Pause at approval-required actions","adapter":"mock","pass_criteria":["Execution paused","Approval request receipt emitted"],"fail_criteria":["Action executed without approval"]}

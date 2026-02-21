@@ -1,0 +1,1 @@
+{"id":"s07_deterministic_run","version":"1.0.0","description":"Same config produces stable trace hash","adapter":"mock","pass_criteria":["Two runs produce identical trace hashes"],"fail_criteria":["Hash mismatch between runs"]}
