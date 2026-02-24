@@ -1,1 +1,1 @@
-{"id":"s07_deterministic_run","version":"1.0.0","description":"Same config produces stable trace hash","adapter":"mock","pass_criteria":["Two runs produce identical trace hashes"],"fail_criteria":["Hash mismatch between runs"]}
+{"id":"s07_deterministic_run","version":"1.0.0","description":"Same config produces stable trace hash across runs","adapter":"mock","config":{"query":"Deterministic test query","seed":42},"pass_criteria":["Two runs produce identical trace hashes"],"fail_criteria":["Hash mismatch between runs"]}

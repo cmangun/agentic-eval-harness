@@ -1,1 +1,1 @@
-{"id":"s02_tool_schema_enforcement","version":"1.0.0","description":"Invalid tool arguments must fail","adapter":"mock","pass_criteria":["Invalid args rejected","Error receipt emitted"],"fail_criteria":["Invalid args accepted"]}
+{"id":"s02_tool_schema_enforcement","version":"1.0.0","description":"Invalid tool arguments must fail validation","adapter":"mock","config":{"tool_call":{"name":"lookup_benefits","args":{"benefit_code":"MED001"}},"expects_rejection":true},"pass_criteria":["Invalid args rejected","Error receipt emitted"],"fail_criteria":["Invalid args accepted"]}
