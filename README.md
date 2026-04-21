@@ -108,6 +108,17 @@ agentic-eval-harness/
 5. **Regression detection** — current scores are compared against the saved baseline
 6. **Evidence export** — results are saved for audit review
 
+## Framework alignment
+
+This harness implements the **evaluation gate and regression detection** of [ATVC — the Agentic Trust Validation Certification framework](https://enterprise-ai-playbook-demo.vercel.app/). Specifically:
+
+| ATVC Phase | Coverage |
+|---|---|
+| **Phase 03 — Engineering** (steps 51–75) | Red-team scenarios, bypass-attempt gates, deterministic-run validation, artifact production checks |
+| **Phase 04 — Enablement** (steps 76–100) | Regression detection against baselines, evidence export, continuous monitoring pattern |
+
+The 8-scenario catalog here is designed to be run as a phase-exit contract for ATVC Phase 03: every scenario must pass before Architecture transitions to production-hardened Engineering.
+
 ## Suite
 
 This repo is part of the **Agentic Evidence Suite**:
