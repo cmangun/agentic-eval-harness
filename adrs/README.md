@@ -8,7 +8,9 @@ ADRs are numbered sequentially and never deleted. Superseded ADRs remain in this
 
 | # | Title | Status |
 |---|---|---|
-| (none yet) | | |
+| 0001 | [Scenario taxonomy — five canonical classes](0001-scenario-taxonomy.md) | Accepted |
+| 0002 | [Regression gate thresholds — per-scenario pass/fail with named rationale](0002-regression-gate-thresholds.md) | Accepted |
+| 0003 | [Red-team scenario authoring methodology — adversarial intent, assertion, bounds](0003-red-team-authoring-methodology.md) | Accepted |
 
 ## Format
 
