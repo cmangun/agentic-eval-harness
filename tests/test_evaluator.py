@@ -1,5 +1,4 @@
 """Tests for the evaluator — verifies criteria checking logic."""
-import pytest
 from adapters.mock.adapter import AdapterState, PolicyReceipt
 from runner.evaluator import evaluate_scenario
 

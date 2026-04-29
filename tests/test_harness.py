@@ -1,6 +1,4 @@
 """Tests for the harness runner — verifies scenario discovery and execution."""
-import pytest
-from pathlib import Path
 from runner.harness import Harness
 
 

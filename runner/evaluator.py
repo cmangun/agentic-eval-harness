@@ -231,7 +231,7 @@ def evaluate_scenario(
             triggered = check_fn(state, context)
             fail_results.append(CriteriaResult(criteria, not triggered, "Fail condition avoided" if not triggered else "FAIL CONDITION TRIGGERED"))
         else:
-            fail_results.append(CriteriaResult(criteria, True, f"No check registered (assumed safe)"))
+            fail_results.append(CriteriaResult(criteria, True, "No check registered (assumed safe)"))
 
     all_pass_met = all(r.met for r in pass_results)
     no_fails_triggered = all(r.met for r in fail_results)

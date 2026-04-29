@@ -1,5 +1,4 @@
 """Tests for the mock adapter — verifies PHI detection, schema validation, budget, retries, bypass."""
-import pytest
 from adapters.mock.adapter import MockAdapter
 
 
